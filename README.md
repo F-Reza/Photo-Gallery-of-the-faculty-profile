@@ -1,5 +1,8 @@
 # Photo-Gallery-of-the-faculty-profile
 Photo Gallery of the faculty profile
+
+***Live Priview https://f-reza.github.io/Photo-Gallery-of-the-faculty-profile/
+
 ################################################################################
 Lab-4
 In this lab to create a photo gallery of the faculty profile 
