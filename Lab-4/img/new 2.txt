@@ -1,0 +1,41 @@
+.profile {
+	background:green;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.profile .caption {
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.profile .feature-img {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+}
+.caption .email {
+    display: block;
+    color: #888b88;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+	
+.caption .button {
+	background:#4CAF50;
+    width: 100%;
+    display: block;
+    clear: both;
+    padding: 20px 0 0;
+    float: left;
+    min-height: 37px;
+	
+}	
+	

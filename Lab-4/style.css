@@ -1,0 +1,264 @@
+/* ====== Main CSS=====*/
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+*{margin:0;padding:0}
+
+
+#gallery{
+	position:;
+	margin:0 auto;
+	width:90%;
+	height:auto;
+	float:left;
+	margin-left:54px;
+}
+.profile{
+    background:;
+    width: 13.5%;
+    height: auto;
+    float: left;
+    margin: 0px 19px 30px 0;
+	overflow:hidden;
+	border-bottom:1px solid #cababa;
+}
+.profile:last-child{
+	margin-right: 0;
+}
+.profile img{
+	width:100%;
+	height:auto;
+	border-bottom:5px solid green;
+}
+
+.profile:hover{
+	background:#ede2ff;
+}
+.profile img{
+	width:100%;
+	height:auto;
+	border-bottom: 5px solid #81e003;
+	display: block;
+    max-width: 102%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile img:hover{
+	transform:scale(.99);
+}
+.title{
+	font-size:15px;
+	padding:10px 0;
+}
+
+.designation, .email {
+    display: block;
+    color: #878882;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+	text-align:left;
+    text-overflow: ellipsis;
+}
+.email a{
+	text-decoration:none;
+	color:;
+}
+
+
+.button {
+	background:#4CAF50;
+    width: 100%;
+    display: block;
+    clear: both;
+    float:left;
+    min-height: ;
+	text-decoration: none;
+	color:white;
+	height:;
+	padding:7px 0 0 0;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:none;
+	text-align:center;
+	min-height: 25px;
+	font-size:14px;
+}
+	
+.button:hover{
+	transition:all 1s ease;
+	background:#4b0de2;
+	color:#fff;
+	font-size:17px;
+}
+.button:active{
+	color:#06f93b;
+}
+
+
+
+
+/*--Header--*/
+
+#header{
+	height:100px;
+	margin-bottom:15px;
+	border-radius:0 0 100px 0;
+}
+
+#header img{
+	width:270px;
+	margin-left:5%;
+	float:left;
+}
+#header{
+	display:block;
+	background:#673AB7;
+}
+#title_main{
+	vertical-align:top;
+	font-size:26px;
+	color:#fff;
+	padding:15px 0 10px 0;
+	margin-left:35%;
+}
+#sub_title{
+	font-size:24px;
+	margin-left:45%;
+}
+
+/*--Header 2 Responsive--*/
+#header1 img{
+	width:200px;
+	margin-left:5%;
+	float:left;
+}
+#header1{
+	display:none;
+	background:#673AB7;
+	height:auto;
+	margin-bottom:20px;
+	text-align:center;
+	border-radius:0 0 100px 100px;
+}
+#title_main1{
+	vertical-align:top;
+	font-size:20px;
+	color:#fff;
+	padding:15px 0 10px 0;
+}#sub_title1{
+	font-size:18px;
+	padding:2px;
+}
+
+
+/*--Footer--*/
+#footer{
+	display:block;
+	background:#5E5E5E;
+	margin-top:15px;
+	width:100%;
+	height:40px;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	padding:10px 20px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+
+/*--Media Qurey--*/
+
+@media only screen and (max-width:700px){
+	
+#header1{
+	display:block;
+}
+#header{
+	display:none;
+}
+#title_main {
+    display:none;	
+}#sub_title {
+    display:none;	
+}
+
+
+
+.profile {
+width: 27%;
+}
+div.gallery {
+width: 100%;
+}
+}
+
+
+@media only screen and (max-width:500px){
+	#header1{
+	display:block;
+}
+#header{
+	display:none;
+}
+#title_main {
+    display:none;	
+}#sub_title {
+    display:none;	
+}
+.profile {
+	width: 80%;
+	margin:0;
+	margin-right:20px;
+	margin-bottom:40px;
+	padding:5px;
+	border:1px solid black;
+	text-align:center;
+}
+.gallery {
+	margin:0 auto;
+	width: 100%;
+	margin:0;
+	margin-left:0;
+}
+.caption{
+	margin-top:8px;
+}
+.title{
+	font-size:22px;
+	padding:10px 0;
+}
+.designation, .email {
+	font-size:22px;
+	text-align:center;
+}.button {
+	height:32px;
+	padding-top:8px;
+	font-size:20px;
+}.button:hover {
+	font-size:22px;
+}
+
+
+}
+	
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+
+
+
+
